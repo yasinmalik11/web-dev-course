@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body{
+            background-color: #00b6c4
+        }
+        .container{
+            background-color: rgb(255, 255, 255);
+            width: 800px;
+            margin: 60px auto;
+            height: 1180px;
+            padding: 20px auto;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 3);
+        }
+        .header{
+            text-align: center;
+        }
+        .header h1{
+            margin-bottom: 10px;
+        }
+        .header h3{
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 25px auto;
+            border: 15px #2085e4;
+        }
+        img img{
+            width: 100%;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left{
+            flex: 1;
+            padding: 20px;
+        }
+        .left p{
+            line-height: 2;
+        }
+        .left ul li{
+            line-height: 2;
+        }
+        .left h3{
+            margin-bottom: 10px;
+        }
+        h2{
+            background-color: #00b6c4;
+            padding: 15px;
+            color: #fff;
+            margin: 25px 0;
+            font-size: 20px;
+            border-radius: 0 50px 50px 0;
+        }
+        .rieght{
+            flex: 1;
+            padding: 30px;
+        }
+        .rieght h3{
+            margin-bottom: 15px;
+        }
+        .rieght p{
+            line-height: 2.9;
+        }
+        .rieght ul li{
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="img">
+                <img src="my image.jpg" alt="">
+            </div>
+           <h1>Yaseen Malik</h1>
+           <h3>Full stack web develapre</h3><hr>
+        </div>
+        <div class="main">
+        <div class="left">
+            <h2>Personal Information</h2>         
+            <h3><strong>Name:</strong>Yaseen</h3>
+            <h3><strong>Age:</strong>17</h3>
+            <h3><strong>Email:</strong> <a href="">yaseen@gmail.com</a></h3>
+            <h3><strong>Phone:</strong>03-00-000-000</h3>
+
+       
+            
+            <h2>Skill</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Js</li>
+                <li>Node js</li>
+                <li>Exprees</li>
+                <li>MongoDB</li>
+                <li>SQL</li>
+            </ul>
+            <h2>Eduacation</h2>
+            <ul>
+                <li><h3>Lorem, ipsum.</h3></li>
+                <p>Lorem ipsum dolor sit.</p>
+                <li><h3>Lorem, ipsum dolor.</h3></li>
+                <p>Lorem ipsum dolor sit.</p>
+            </ul>
+        </div>
+        <div class="rieght">
+            <h2>Work Expreianse</h2>
+            <h3>xyz company</h3>
+            <p><strong>Position:</strong>Web develapre</p>
+            <p><strong>Derution:</strong>2023-2025</p>
+            <ul>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, earum!</p></li>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, earum!</p></li>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, earum!</p></li>
+                <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, earum!</p></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
