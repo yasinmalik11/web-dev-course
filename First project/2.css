@@ -1,0 +1,300 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+}
+.prheader{
+    background-color: wheat;
+    width: 2000px;
+    height: 50px;
+    padding-top: 30px;
+    
+    
+
+}
+#img1{
+    width: 85%px;
+    height: 99px;
+ 
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-right: 78px;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: #650372;
+    font-size: 37px;
+}
+#box{
+    font-size: 31px;
+    border-radius: 7px;
+    border: none;
+}
+#box:hover{
+    font-size: 32px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .2);
+    border: none;
+
+}
+button{
+    font-size: 29px;
+    border-radius: 7px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+}
+button:hover{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .2);
+    font-size: 26px;
+}
+  
+ .main{
+            padding: 35px;
+            background-color: wheat;
+
+        }
+        .colum1{
+            display: flex;
+        }
+        .colum2{
+            display: flex;
+        }
+          .colum3{
+            display: flex;
+        }
+        .box1{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+        }
+    .box1 h3 {
+        padding: 4px;
+    }
+    .box1 p{
+        padding: 3px 0 2px 4px;
+    }
+    .box1:hover{
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 10.2);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+    
+     .box2{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box2 h3 {
+        padding: 4px;
+    }
+    .box2 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box2:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+     .box3{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box3 h3 {
+        padding: 4px;
+    }
+    .box3 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box3:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+       
+        background-color: rgb(255, 255, 255);
+    }
+     .box4{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box4 h3 {
+        padding: 4px;
+    }
+    .box4 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box4:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+       
+        background-color: rgb(255, 255, 255);
+    }
+     .box5{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box5 h3 {
+        padding: 4px;
+    }
+    .box5 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box5:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+      
+        background-color: rgb(255, 255, 255);
+    }
+     .box6{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box6 h3 {
+        padding: 4px;
+    }
+    .box6 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box6:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+       
+        background-color: rgb(255, 255, 255);
+    }
+     .box7{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box7 h3 {
+        padding: 4px;
+    }
+    .box7 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box7:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+     .box8{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box8 h3 {
+        padding: 4px;
+    }
+    .box8 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box8:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+     .box9{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box9 h3 {
+        padding: 4px;
+    }
+    .box9 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box9:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+     .box10{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box10 h3 {
+        padding: 4px;
+    }
+    .box10 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box10:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+     .box11{
+            width: 250px;
+            height: 350px;
+            background-color: rgb(255, 239, 254);
+            margin: 25px;
+            padding: 7px;
+            border-radius: 15px;
+
+        }
+    .box11 h3 {
+        padding: 4px;
+    }
+    .box11 p{
+        padding: 3px 0 2px 4px;
+    }
+     .box11:hover{
+        box-shadow: 0 2px 20px rgba(0,0, 0, 0.5);
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+
