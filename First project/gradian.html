@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            height: 200vh;
+            background-color: black;
+        }
+        h1{
+            padding-top: 300px;
+            position: absolute;
+            background: linear-gradient(90deg,red,blue,green,yellow,black,white);
+            background-size: 400%;
+            font-size: 70px;
+            word-spacing: 5px;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: dod 2s linear infinite;
+        }
+        @keyframes dod {
+            0%{
+                background-position: 0%;}
+            100%{
+                background-position: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <h1>HTML CSS GRADIENT</h1>
+</body>
+</html>
