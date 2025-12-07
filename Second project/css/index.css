@@ -11,14 +11,14 @@
 }
 .navegaction{
     width: 100%;
-    height: 10vh;
+    height: 10px;
     display: flex;
     justify-content: space-around;
 }
 .navegaction .subject{
     width: 20%;
     height: 10vh;
-    top: 20px;
+    top: 10px;
     font-size:15px;
     background-color: rgba(255, 166, 0, 0.767);
     text-align: center;
@@ -32,7 +32,7 @@
 }
 .navegaction .navbar{
     width: 50%;
-    height: 10vh;
+    height: 5vh;
     display: flex;
     font-size: 20px;
     align-items: center;
@@ -54,13 +54,13 @@
     width: 10%;
 }
 .joint button{
-    width: 100%;
-    height: 6vh;
+ 
+    height: 4vh;
     border: none;
     font-size: 20px;
     border-radius: 10px;
     background-color: rgba(255, 68, 0, 0.849);
-    margin-top: 7px;
+    margin-top: 5px;
 
 }
 .joint button:hover{
@@ -110,7 +110,7 @@
 
 }
 .contact1 button{
-    width: 30%;
+    width: 29%;
     height: 6vh;
     border-radius: 10px;
     background-color: orangered;
@@ -119,12 +119,12 @@
     color: white;
 }
 .contact{
-    width: 40%;
+    width: 45%;
     height: 80vh;
     border-radius: 10px;
 }
 .contact1{
-    width: 50%;
+    width: 45%;
     height: 80vh;
 
 }
@@ -398,7 +398,7 @@
 /* need any course */
 .choose{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-image:url(../img/registration.jpg);
     background-size: 100% 110vh;
     background-repeat: no-repeat;
@@ -416,14 +416,14 @@
 }
 .choose2{
     margin-top: 90px ;
-    width: 30%;
-    height: 80vh;
+    width: 40%;
+    height: 70vh;
     text-align: center;
     background-color: aliceblue;
 }
 .choose2 form{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-color: tomato;
     text-align: center;
 }
@@ -496,7 +496,7 @@
 }
 .blog1{
     width: 30%;
-    height: 50vh;
+    height: 5045;
     text-align: center;
     border-radius: 10px;
     background-color: rgb(216, 213, 209);
@@ -582,8 +582,248 @@
 .adress{
     width: 100%;
     height: 7vh;
-    background-color:  rgb(3, 2, 88); 
+    background-color:  rgb(3, 2, 88);  
     color: rgb(255, 255, 255);
     text-align: center;
 
 }
+/* media */
+
+@media only screen and (max-width: 1400px) {
+    .head{
+        height: 15vh;
+    }
+    .ecourses{
+        height: 6vh;
+        font-size: 10px;
+    }
+    .ecourses h2{
+        font-size: 20px;
+    }
+    .navegaction .subject{
+        height: 6vh;
+        top: 10;
+        font-size: 16px;
+    }
+    .navegaction{
+        height: 29vh;
+    }
+    .homescreen{
+    height: 70vh;
+    }
+    .aboutus{
+        height: 60vh;
+    }
+    .contact img{
+        height: 50vh;
+    }
+    .contact{
+        height: 55vh;
+    }
+    .contact1{
+        height: 55vh;
+    }
+    .explore{
+        height: 70vh;
+    }
+   .expl1{
+        height: 20vh;
+    } 
+    .expl2{
+        height: 20vh;
+    } 
+    .expl3{
+        height: 20vh;
+    } 
+    .expl4{
+        height: 20vh;
+    }     
+     .expl5{
+        height: 20vh;
+    } 
+     .expl6{
+        height: 20vh;
+    } 
+     .expl7{
+        height: 20vh;
+    } 
+     .expl8{
+        height: 20vh;
+    } 
+    .courses{
+        height: 55vh;
+    }
+    .course1{
+        height: 50vh;
+    }
+    .course2{
+        height: 50vh;
+    }
+    .course3{
+        height: 50vh;
+    }
+    .courses1{
+        height: 55vh;
+    }
+    .course4{
+        height: 50vh;
+    }
+    .course5{
+        height: 50vh;
+    }
+    .course6{
+        height: 50vh;
+    }
+    .choose{
+        height: 70vh;
+    }
+    .choose2 form{
+        height: 50vh;
+     
+    }
+    .choose2{
+        height: 50vh;
+    
+    }
+    .choose2 input, .choose2 select{
+        height: 45px;
+    }
+    .teachers{
+        height: 40vh;
+    }
+    .tech1{
+        height: 30vh;
+    }.tech2{
+        height: 30vh;
+    }
+    .tech3{
+        height: 30vh;
+    }
+    .tech4{
+        height: 30vh;
+    }
+    .blogs{
+        height: 50vh;
+    }
+    .blog1{
+        height: 30vh;
+    }
+    .blog2{
+        height: 30vh;
+    }
+    .blog3{
+        height: 30vh;
+    }
+    .footer{
+        height: 40vh;
+        
+    }
+   
+} 
+@media screen and (max-width:1200px) {
+    .home1{
+        margin-left: 25vh;
+        margin-top: 15vh;
+        font-size: 40px;
+    }
+    .aboutus{
+      height: 52vh;
+    }
+    .contact{
+        height: 50vh;
+    }
+   .contact img{
+    height: 45vh;
+   }
+   .contact1{
+    height: 51vh;
+   }
+   .contact1 p{
+    font-size: 19px;
+    line-height: 28px;
+   }
+   /* courses section */
+   .courses{
+    height: 45vh;
+   }
+   .course1{
+    height: 40vh;
+   }
+   .course1 img{
+    height: 25vh;
+   }
+    .course2{
+    height: 40vh;
+   }
+   .course2 img{
+    height: 25vh;
+   }
+    .course3{
+    height: 40vh;
+   }
+   .course3 img{
+    height: 25vh;
+   }
+    .course4{
+    height: 40vh;
+   }
+   .course4 img{
+    height: 25vh;
+   }
+    .course5{
+    height: 40vh;
+   }
+   .course5 img{
+    height: 25vh;
+   }
+    .course6{
+    height: 40vh;
+   }
+   .course6 img{
+    height: 25vh;
+   }
+   .headingpopul{
+    font-size: 17px;
+   }
+   /* our develaper */
+  
+   
+}
+@media screen and (max-width:1000px) {
+    .homescreen{
+        height: 60vh;
+    }
+    .home1{
+        margin-top: 10vh;
+        margin-left: 15vh;
+    }
+    .aboutus{
+        height: 40vh;
+    }
+    .contact{
+        height:38vh;
+    }
+    .contact img{
+        width: 90%;
+        height: 35vh;
+    }
+    .contact1{
+        height: 40vh;
+    }
+    .contact1 h2{
+       font-size: 20px;
+    }
+    .contact1 h1{
+        font-size: 25px;
+    }
+    .contact1 p{
+        line-height: 2vh;
+        font-size: 15px;
+    }
+    
+}
+    
+
+/* .contact1 p {
+    line-height: 40px;
+} */
