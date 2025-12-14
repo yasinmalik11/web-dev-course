@@ -316,14 +316,14 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    /* height: 130vh; */
+    /* height: 80vh; */
     /* margin-top: 30px; */
     /* margin-bottom: 20vh;
      */
 }
 .course1{
     width: 32%;
-    height: 90vh;
+    height: 100vh;
     background-color: rgb(235, 235, 230);
     /* margin-left: 20px; */
     border-radius: 20px;
@@ -338,9 +338,9 @@
 }
 .course3{
     width: 32%;
-    height: 90vh;
+    height: 100vh;
     background-color: rgb(235, 235, 230);
-    margin-left: 25px;
+    /* margin-left: 25px; */
     border-radius: 20px;
     
 
@@ -362,6 +362,7 @@
 }
 .courses1{
     display: flex;
+    justify-content: space-around;
     width: 100%;
     /* height: 70vh; */
     margin-top: 30px;
@@ -370,7 +371,7 @@
     width: 32%;
     height: 90vh;
     background-color: rgb(235, 235, 230);
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border-radius: 20px;
 
 }
@@ -378,7 +379,7 @@
     width: 32%;
     height: 90vh;
     background-color: rgb(235, 235, 230);
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border-radius: 20px;
 
 }
@@ -386,7 +387,7 @@
     width: 32%;
     height: 90vh;
     background-color: rgb(235, 235, 230);
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border-radius: 20px;
 
 }
@@ -408,6 +409,7 @@
 }
 .course1 , .course2 , .course3 ,.course4 ,.course5 , .course6{
     height: 100vh;
+    /* margin: 0px; */
 }
 /* need any course */
 .choose{
@@ -427,23 +429,23 @@
 }
 .choose1 h1{
     color: aliceblue;
-    font-size: 40px;
+    font-size: 30px;
 }
 .choose2{
-    margin-top: 90px ;
+    margin-top: 70px ;
     width: 40%;
     /* height: 100vh; */
     text-align: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .choose2 form{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: tomato;
     text-align: center;
 }
 .choose2 input, .choose2 select{
-    width: 70%;
+    width: 80%;
     height: 7vh;
     font-size: 20px;
     margin-top: 40px;
@@ -606,290 +608,40 @@
     text-align: center;
 
 }
-/* media */
 
- @media only screen and (max-width: 1400px) {
-    .head{
-        height: 30vh;
-    }
-    .ecourses{
-        height: 6vh;
-        font-size: 10px;
-    }
-    .ecourses h2{
-        font-size: 20px;
-    }
-    .navegaction .subject{
-        height: 10vh;
-        top: 10;
-        font-size: 16px;
-    }
-    .navegaction{
-        height: 29vh;
-    }
-    .homescreen{
-    height: 70vh;
-    text-align: center;
-    }
-    .aboutus{
-        height: 60vh;
-    }
-    .contact img{
-        height: 50vh;
-    }
-    .contact{
-        height: 55vh;
-    }
-    .contact1{
-        height: 55vh;
-    }
-    .explore{
-        height: 70vh;
-    }
-   .expl1{
-        height: 20vh;
-    } 
-    .expl2{
-        height: 20vh;
-    } 
-    .expl3{
-        height: 20vh;
-    } 
-    .expl4{
-        height: 20vh;
-    }     
-     .expl5{
-        height: 20vh;
-    } 
-     .expl6{
-        height: 20vh;
-    } 
-     .expl7{
-        height: 20vh;
-    } 
-     .expl8{
-        height: 20vh;
-    } 
-    .courses{
-        height: 55vh;
-    }
-    .course1{
-        height: 50vh;
-    }
-    .course2{
-        height: 50vh;
-    }
-    .course3{
-        height: 50vh;
-    }
-    .courses1{
-        height: 55vh;
-    }
-    .course4{
-        height: 50vh;
-    }
-    .course5{
-        height: 50vh;
-    }
-    .course6{
-        height: 50vh;
-    }
-    .choose{
-        height: 70vh;
-    }
-    .choose2 form{
-        height: 50vh;
-     
-    }
-    .choose2{
-        height: 50vh;
-    
-    }
-    .choose2 input, .choose2 select{
-        height: 45px;
-    }
-    .teachers{
-        height: 40vh;
-    }
-    .tech1{
-        height: 30vh;
-    }.tech2{
-        height: 30vh;
-    }
-    .tech3{
-        height: 30vh;
-    }
-    .tech4{
-        height: 30vh;
-    }
-    .blogs{
-        height: 50vh;
-    }
-    .blog1{
-        height: 30vh;
-    }
-    .blog2{
-        height: 30vh;
-    }
-    .blog3{
-        height: 30vh;
-    }
-    .footer{
-        height: 40vh;
-        
-    }
-    .aboutus{
-        height: 100vh;
-    }
-   
-}
-@media only screen and (min-width:1200px) {
-    .home1{
-        margin-left: 25vh;
-        margin-top: 15vh;
-        font-size: 40px;
-    }
-    .aboutus{
-      height: 52vh;
-    }
-    .contact{
-        height: 50vh;
-    }
-   .contact img{
-    height: 45vh;
-   }
-   .contact1{
-    height: 51vh;
-   }
-   .contact1 p{
-    font-size: 19px;
-    line-height: 28px;
+.choose p{
+    color: white; 
+    font-size: 30px;
     text-align: justify;
-   }
-   /* courses section */
-   .courses{
-    height: 45vh;
-   }
-   .course1{
-    height: 40vh;
-   }
-   .course1 img{
-    height: 25vh;
-   }
-    .course2{
-    height: 40vh;
-   }
-   .course2 img{
-    height: 25vh;
-   }
-    .course3{
-    height: 40vh;
-   }
-   .course3 img{
-    height: 25vh;
-   }
-    .course4{
-    height: 40vh;
-   }
-   .course4 img{
-    height: 25vh;
-   }
-    .course5{
-    height: 40vh;
-   }
-   .course5 img{
-    height: 25vh;
-   }
-    .course6{
-    height: 40vh;
-   }
-   .course6 img{
-    height: 25vh;
-   }
-   .headingpopul{
-    font-size: 17px;
-   }
-   .explore{
-    display: flex;
-    justify-content: space-around;
-    height: 110vh;
-   }
-   .explore1, .explore2 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
 }
-.expl1 , .expl2,.expl3, .expl4 ,.expl5, .expl6, .expl7 , .expl8{
-    width: 100%;
-}
-   /* our develaper */
-  
-   }
-@media only screen and (min-width:1000px) {
-    .homescreen{
-        height: 60vh;
-    }
-    .home1{
-        margin-top: 10vh;
-        margin-left: 15vh;
-    }
-    .aboutus{
-        height: 40vh;
-    }
-    .contact{
-        height:38vh;
-    }
-    .contact img{
-        width: 90%;
-        height: 30vh;
-    }
-    .contact1{
-        height: 40vh;
-    }
-    .contact1 h2{
-       font-size: 20px;
-    }
-    .contact1 h1{
-        font-size: 25px;
-    }
-    .contact1 p{
-        line-height: 2vh;
-        font-size: 15px;
-        text-align: justify;
-    }
-    .contact1 button{
-        height: 40px;
-        font-size: 20px;
-    }
-    .choose{
-        height: 60vh;
-    }
-    .choose1{
-        margin-top: 10px;
-    }
-    .choose1 h1{
-        font-size: 32px;
-        line-height: 15px;
-    }
-    .choose1 p{
-        font-size: 10px;
-        text-align: justify;
-    }
-    .choose2 form{
-        height: 40vh;
-    }
-    .choose2 h2{
-        height: 90vh;
-        width: 100vh;
-    }
-    .choose2{
-        margin-top: 25px;
-        width: 50%;
-    }}
-    
 
-/* .contact1 p {
-    line-height: 40px;
-} */
+.teacher1 h1{
+font-size: 30px !important;
+}
+
+@media only screen and (max-width:1000px) {
+    .tech1, .tech2, .tech3, .tech4 {
+    width: 24%;
+}
+.choose1 p{
+    font-size: 26px;
+}
+.tech1 h1, .tech2 h1, .tech3 h1, .tech4 h1{
+    font-size: 40px !important;
+}
+.course1 ,.course2 , .course3{
+    height: 30vh;
+}
+.course1, .course2, .course3, .course4, .course5, .course6
+ {
+    height: 83vh;
+ }
+ .contact1 p {
+    font-size: 14px;
+    /* line-height: 28px; */
+    text-align: justify;
+}
+
+}
+
+
