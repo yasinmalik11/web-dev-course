@@ -1,0 +1,210 @@
+.head{
+    width: 100%;
+    height: 25vh;
+}
+.ecourses{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(206, 159, 102, 0.788);
+}
+.navegaction{
+    width: 100%;
+    height: 10vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegaction .subject{
+    width: 20%;
+    height: 10vh;
+    top: 10px;
+    font-size:15px;
+    background-color: rgba(255, 166, 0, 0.767);
+    text-align: center;
+}
+.navegaction .subject a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.subject:hover{
+    background-color: rgb(255, 145, 0);
+}
+.navegaction .navbar{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.navbar .nav a{
+    text-decoration: none;
+    color: black;
+}
+.ecourses h1::first-letter{
+    color: rgb(255, 102, 0);
+    font-size: 35px;
+}
+.nav a:hover{
+    color: rgb(255, 102, 0);
+}
+.joint{
+    width: 10%;
+}
+.joint button{
+ 
+    height: 4vh;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 68, 0, 0.849);
+    /* margin-top: 5px; */
+        width: 100%;
+
+}
+/* .subject h1{
+    margin-top: 44px;
+} */
+.joint button:hover{
+    background-color: rgb(240, 65, 1);
+}
+
+/* * home screen page */
+.homescreen{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/carousel-1.jpg);
+    background-size: 100% 100vh;
+    display: flex;
+}
+.home1 {
+    color:white;
+    margin-left: 90vh;
+/* text-align: center; */
+    /* text-align: center; */
+    font-size: 20px;   
+}
+
+/* contact form */
+
+.contactheading{
+text-align: center;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.contact .form {
+    width: 55%;
+    height: 70vh;
+    border-radius: 10px;
+    background-color: rgb(0, 128, 255);
+    /* text-align: center; */
+    /* margin-left: 43vh; */
+}
+.contact1{
+    text-align: center;
+}
+.contact input{
+    font-size: 20px;
+    width: 70%;
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 5px;
+    /* justify-content: space-around; */
+    height: 6vh;
+}
+#message{
+    border-radius: 10px;
+    font-size: 20px;
+    height: 20vh;
+    width: 70%;
+    color: rgb(11, 16, 16);
+}
+#submit{
+    background-color: orangered;
+    color: white;
+    font-size: 30px;
+    width: 40%;
+    height: 8vh;
+}
+/* Foooter section */
+.footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: rgb(3, 2, 88);
+    justify-content: space-around;
+}
+.footer1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footerfirst{
+    width: 40%;
+    height: 25vh;
+    font-size: 17px;
+    color: aliceblue;    
+}
+.footersecond{
+    width: 50%;
+    height: 25vh;
+    color: rgba(230, 228, 225, 0.932);    
+
+}
+.footer .footerfirst button{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(0, 1, 87);
+    border: 2px solid rgb(255, 255, 255) ;
+    border-radius: 5px;
+    transition: 2s;
+}
+.footer .footerfirst button:hover{
+    background-color: rgb(255, 255, 255);
+}
+#ft{
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+#ft1{
+    font-size: 25px;
+    background-color: orangered;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.adress{
+    width: 100%;
+    height: 7vh;
+    background-color:  rgb(3, 2, 88);  
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+ @media screen and (max-width:1280px) {
+     .homescreen{
+    height: 60vh;
+    /* text-align: center; */
+    }
+    .homescreen,img{
+        background-size: 100% 60vh;
+    }
+    .home1{
+        margin-left: 40vh;
+    }
+    .contact{
+text-align: center !important;    }
+ }
