@@ -1,76 +1,34 @@
 .head{
     width: 100%;
-    height: 25vh;
+    height: 19vh;
 }
-.ecourses{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(206, 159, 102, 0.788);
-}
-.navegaction{
-    width: 100%;
-    height: 10vh ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.navegaction .subject{
-    width: 20%;
-    height: 10vh;
-    top: 10px;
-    font-size:15px;
-    background-color: rgba(255, 166, 0, 0.767);
-    text-align: center;
-}
-.navegaction .subject a{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-.subject:hover{
-    background-color: rgb(255, 145, 0);
-}
-.navegaction .navbar{
-    width: 50%;
-    height: inherit;
-    display: flex;
-    font-size: 20px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-}
-.navbar .nav a{
-    text-decoration: none;
-    color: black;
-}
-.ecourses h1::first-letter{
-    color: rgb(255, 102, 0);
-    font-size: 35px;
-}
-.nav a:hover{
-    color: rgb(255, 102, 0);
-}
-.joint{
-    width: 10%;
-}
-.joint button{
- 
-    height: 4vh;
-    border: none;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 68, 0, 0.849);
-    /* margin-top: 5px; */
-        width: 100%;
 
-}
-/* .subject h1{
-    margin-top: 44px;
-} */
-.joint button:hover{
-    background-color: rgb(240, 65, 1);
-}
+.top-bar {
+      font-size: 17px;
+      text-align: justify
+      ;
+      justify-content: space-around;
+    }
+
+
+    /* Navbar */
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
+
+    .nav-link {
+      font-weight: 500;
+    }
+
+    /* Offcanvas menu width */
+    .offcanvas {
+      width: 280px;
+    }
+    .col-lg-4 #ecourse{
+        color: orange; 
+    }
+
 .homescreen{
     width: 100%;
     height: 100vh;
@@ -260,7 +218,7 @@
 /* media */
 @media screen and (max-width:1300px) {
     .head{
-        height: 3vh;
+        height: 1rem;
     }
     .ecourses{
         height: 6vh;
@@ -364,7 +322,23 @@
     width: 50%;
 }
 }
+@media screen and (max-width:1000px) {
+    .head{
+        /* height: 1px; */
+        margin-bottom: -5vh;
+    }
+}
+@media screen and (max-width:991px) {
+    .head{
+        height: 0vh;
+
+    }
+    .top-bar{
+        height: 10px;
+    }
+}
 @media screen and (max-width:930px) {
+
      .homescreen{
         height: 40vh;
     }
@@ -411,6 +385,13 @@
 }
 .choose2 form{
     /* width: 95%; */
+}
+.choose{
+    height: 90vh;
+    margin-bottom: 10vh;
+}
+.footer{
+    height: 60vh;
 }
 }
 
@@ -498,4 +479,11 @@
   height: 45px;
 }
 
+}
+@media screen and (max-width:575px) {
+    .choose{
+    height: 60vh;
+    /* margin-bottom: 10vh; */
+}
+    
 }
