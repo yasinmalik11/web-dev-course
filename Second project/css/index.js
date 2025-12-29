@@ -18,7 +18,7 @@
 // else if(per>=70){
 //     console.log("fasdkjkl");
     
-// }
+// } 
 // else if(per>=60){
 //     console.log("");
     
@@ -49,7 +49,7 @@
 // // }
 
 // // let arr=[3,4,7,8]
-log.console("loga");
+console.log("loga");
 
 // let person={
 //      name:"yaseen",
@@ -57,4 +57,26 @@ log.console("loga");
 //      class:Nine,
 // }
 // console.log(person.name);
+setTimeout(() => {
+    console.log("drink water!");
+    
+}, 5000);
 
+let coun=5;
+function countdown() {
+  if (coun === 0) {
+    console.log("Done!");
+    return;
+  }
+  console.log(coun);
+  coun--;
+  setTimeout(countdown, 1000);
+}
+countdown();
+
+//  
+
+ let Promise2= new Promise((resolve, reject) => {
+  console.log("email,password");
+resolve()
+ })
